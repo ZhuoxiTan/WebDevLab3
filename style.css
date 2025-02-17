@@ -1,0 +1,30 @@
+article{
+    background-color: #FFECB3;
+    font-size: 16px;
+    color: #333;
+}
+.featured{
+    background-color: #FFD54F;
+    font-weight: bold;
+    border: 2px solid #FFA000;
+}
+article p{
+    line-height: 1.5;
+    font-style: italic;
+}
+span:hover{
+    color: #FFB300;
+
+}
+
+@keyframes colorChange {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+p {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 2s;
+}
